@@ -1,0 +1,1 @@
+ALTER TABLE `informacion_almacen` ADD `eslogan` VARCHAR( 100 ) NOT NULL AFTER `nombre` 

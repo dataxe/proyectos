@@ -1,0 +1,1 @@
+ALTER TABLE `facturas_cargadas_inv` ADD `unidades_faltantes` DOUBLE NOT NULL AFTER `unidades_vendidas`;

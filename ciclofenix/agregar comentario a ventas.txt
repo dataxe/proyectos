@@ -1,0 +1,1 @@
+ALTER TABLE `ventas` ADD `comentario` VARCHAR( 40 ) NOT NULL AFTER `vlr_total_compra`

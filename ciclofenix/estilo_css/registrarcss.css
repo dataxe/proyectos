@@ -1,0 +1,187 @@
+#boton1{
+cursor: pointer;
+background:-moz-linear-gradient(#4f5058 0%,#669 100%);
+background:-ms-linear-gradient(#4f5058 0%,#669 100%);
+background:-o-linear-gradient(#4f5058 0%,#669 100%);
+background:-webkit-linear-gradient(#4f5058 0%,#669 100%);
+background:linear-gradient(#4f5058 0%,#669 100%);
+border:solid 1px #669;
+border-radius:5px;
+text-align:center;
+padding:5px;
+color:#fff;
+width:125px;
+}
+#boton1:hover{
+background:-moz-linear-gradient(#4f5058 0%,#fff 100%);
+color:#000;
+}
+form#inscripcion {
+margin-right:auto;
+margin-left:auto;
+border-radius:20px;
+background: #e7e7e7;
+box-shadow:0px 0px 10px black;
+font-size: 12px;
+padding: 30px;
+width: 350px;
+height: 300px;
+border:solid 10px LightSteelBlue;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+form{
+margin: 126px auto 0;
+width: 225px;
+}
+form#inscripcion fieldset {
+border: none;
+}
+form#inscripcion input{
+font-size:12px;
+background: white;
+border:solid 1px LightSteelBlue;
+border-radius: 1px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+}
+form#inscripcion ol li {
+line-height: 25px;
+list-style: none;
+}
+form#inscripcion [required]{
+border:solid 3px white;
+}
+input:required {
+outline: 2px dotted thick;
+}
+body {
+background-color: #333333;
+}
+fieldset.menu {
+border:0px;
+margin:0px;
+width: 1240px;
+height: 115px;
+background-position:center;
+background-color: #e3e3e3;
+background: -moz-linear-gradient(top, #4f5058 , #669);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#4f5058),  to(#669));
+}
+ul.menu {
+height: 50px;
+width: 1260px;
+background: #4c4e5a;
+background: -webkit-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -moz-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -o-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -ms-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 0px;
+}
+h2 {
+font-family: Georgia;
+font-size: 2.5em;
+font-weight:bold;
+text-shadow: 0 1px 0 #CCCCCC;
+text-align:center;
+/* LETRAS CON LLAMAS
+text-shadow:0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;
+color: #4f5058;
+*/
+/* LETRAS ILUMINADAS PURPURA */
+text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+color: #FFF;
+}
+h4 {
+font-family: Georgia;
+font-size: 0.7em;
+text-shadow: 0 1px 0 #CCCCCC;
+text-align:left;
+text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+color: #FFF;
+}
+ul.menu, ul.menu ul, ul.menu li, ul.menu a {
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+}
+ul.menu li {
+position: relative;
+list-style: none;
+float: left;
+display: block;
+height: 40px;
+}
+ul.menu li a {
+display: block;
+padding: 0 18px;
+margin: 5px 0;
+line-height: 36px;
+text-decoration: none;
+border-left: 1px solid #393942;
+border-right: 1px solid #4f5058;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 1em;
+color: #f3f3f3;
+text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+-webkit-transition: color .2s ease-in-out;
+-moz-transition: color .2s ease-in-out;
+-o-transition: color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+ul.menu li:first-child a { border-left: none; }
+ul.menu li:last-child a{ border-right: none; }
+ul.menu li:hover > a { color: #caad16; }
+ul.menu ul {
+position: absolute;
+top: 50px;
+left: 0;
+width: auto;
+opacity: 10;
+background: rgba(0,0,0,0.70);
+-webkit-border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;
+-webkit-transition: opacity .25s ease .1s;
+-moz-transition: opacity .25s ease .1s;
+-o-transition: opacity .25s ease .1s;
+-ms-transition: opacity .25s ease .1s;
+transition: opacity .25s ease .1s;
+}
+ul.menu li:hover > ul { opacity: 1; }
+ul.menu ul li {
+height: 0;
+overflow: hidden;
+padding: 0;
+-webkit-transition: height .25s ease .1s;
+-moz-transition: height .25s ease .1s;
+-o-transition: height .25s ease .1s;
+-ms-transition: height .25s ease .1s;
+transition: height .25s ease .1s;
+}
+ul.menu li:hover > ul li {
+height: 36px;
+overflow: visible;
+padding: 0;
+}
+ul.menu ul li a {
+width: 130px;
+padding: 0 0px;
+margin: 0;
+font-size: 0.9em;
+border: none;
+border-bottom: 1px solid #353539;
+}
+ul.menu ul li:last-child a { border: none; }

@@ -1,0 +1,65 @@
+#boton1{
+cursor: pointer;
+background:-moz-linear-gradient(#4f5058 0%,#669 100%);
+background:-ms-linear-gradient(#4f5058 0%,#669 100%);
+background:-o-linear-gradient(#4f5058 0%,#669 100%);
+background:-webkit-linear-gradient(#4f5058 0%,#669 100%);
+background:linear-gradient(#4f5058 0%,#669 100%);
+border:solid 1px #669;
+border-radius:5px;
+text-align:center;
+padding:5px;
+color:#fff;
+width:125px;
+}
+#boton1:hover{
+background:-moz-linear-gradient(#4f5058 0%,#fff 100%);
+color:#000;
+}
+body {
+	background-color: #333333;
+}
+form#acceso {
+margin:auto; background: LightSlateGray; color: white; font-size: 12px; padding: 30px; width: 350px;
+border:solid 10px LightSlateGray; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+form#acceso fieldset {
+border: none;
+}
+form#acceso input{
+font-size:12px; background: white; border:solid 1px LightSteelBlue; border-radius: 1px;
+-webkit-border-radius: 3px; -moz-border-radius: 3px; float: right; margin-right: 15px; width: 200px;
+}
+orm#acceso ol li {
+line-height: 25px; list-style: none;
+}
+form#acceso [required]{
+border:solid 5px white;
+}
+input:required {
+outline: 2px dotted thick;
+}
+form#acceso select{
+font-size:14px;
+background: white;
+border:solid 1px LightSteelBlue;
+border-radius: 2px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 200px;
+height: 28px;
+}
+#submit {
+font-weight: bold;
+cursor: pointer;
+padding: 5px;
+margin: 0 10px 20px 0;
+border: 1px solid #ccc;
+background: #eee;
+border-radius: 8px 8px 8px 8px;
+}
+#submit:hover {
+background: #ddd;
+}

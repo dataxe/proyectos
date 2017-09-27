@@ -1,0 +1,61 @@
+﻿-- phpMyAdmin SQL Dump
+-- version 3.3.9
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 18-02-2016 a las 17:50:13
+-- Versión del servidor: 5.5.8
+-- Versión de PHP: 5.3.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `pinsalud`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `actualizado_fecha_vencimiento`
+--
+
+CREATE TABLE IF NOT EXISTS `actualizado_fecha_vencimiento` (
+  `cod_actualizado_fecha_vencimiento` int(10) NOT NULL AUTO_INCREMENT,
+  `cod_productos` varchar(20) COLLATE utf8_bin NOT NULL,
+  `nombre_productos` varchar(60) COLLATE utf8_bin NOT NULL,
+  `cod_marcas` int(5) NOT NULL,
+  `cod_proveedores` int(5) NOT NULL,
+  `numero_factura` int(10) NOT NULL,
+  `unidades` double NOT NULL,
+  `cajas` double NOT NULL,
+  `unidades_total` double NOT NULL,
+  `unidades_faltantes` double NOT NULL,
+  `precio_compra` double NOT NULL,
+  `precio_costo` double NOT NULL,
+  `precio_venta` double NOT NULL,
+  `vlr_total_compra` double NOT NULL,
+  `vlr_total_venta` double NOT NULL,
+  `fecha_factura` varchar(20) COLLATE utf8_bin NOT NULL,
+  `fechas_vencimiento` varchar(15) COLLATE utf8_bin NOT NULL,
+  `fechas_vencimiento_seg` int(20) NOT NULL,
+  `fecha` int(20) NOT NULL,
+  `fecha_time` int(20) NOT NULL,
+  `fecha_mes` varchar(10) COLLATE utf8_bin NOT NULL,
+  `fecha_anyo` varchar(15) COLLATE utf8_bin NOT NULL,
+  `anyo` int(10) NOT NULL,
+  `fecha_hora` varchar(10) COLLATE utf8_bin NOT NULL,
+  `cuenta` varchar(60) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`cod_actualizado_fecha_vencimiento`),
+  KEY `cod_productos` (`cod_productos`,`nombre_productos`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `actualizado_fecha_vencimiento`
+--
+

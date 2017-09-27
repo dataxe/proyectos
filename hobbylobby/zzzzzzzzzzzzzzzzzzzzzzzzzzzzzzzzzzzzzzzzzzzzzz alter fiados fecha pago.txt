@@ -1,0 +1,1 @@
+ALTER TABLE `productos_fiados` ADD `fecha_pago` VARCHAR( 15 ) NOT NULL AFTER `cod_uniq_credito` 

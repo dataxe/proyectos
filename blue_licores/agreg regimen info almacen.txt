@@ -1,0 +1,1 @@
+ALTER TABLE `informacion_almacen` ADD `regimen` VARCHAR( 70 ) NOT NULL AFTER `nit` 

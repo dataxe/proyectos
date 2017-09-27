@@ -1,0 +1,3 @@
+ALTER TABLE `cajas_registros` CHANGE `nombre_base_caja` `nombre_base_caja` VARCHAR( 60 ) NULL DEFAULT NULL ;
+
+ALTER TABLE `cajas_registros` ADD `fecha_seg` INT( 20 ) NOT NULL AFTER `fecha_invert` ;

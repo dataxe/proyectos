@@ -1,0 +1,5 @@
+LOG APACHE
+C:\xampp\apache\logs
+
+LOG MYSQL
+C:\xampp\mysql\data

@@ -1,0 +1,2 @@
+UPDATE ventas SET cod_proveedores = '1' WHERE cod_proveedores =0;
+UPDATE ventas SET cod_marcas = '1' WHERE cod_marcas =0;

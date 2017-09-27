@@ -1,0 +1,1 @@
+UPDATE `disproelectricos`.`facturas_cargadas_inv` SET `anyo` = '2015' WHERE `facturas_cargadas_inv`.`fecha_mes` ='07/2015'

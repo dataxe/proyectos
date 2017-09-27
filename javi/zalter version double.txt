@@ -1,0 +1,1 @@
+ALTER TABLE `informacion_almacen` CHANGE `version` `version` DOUBLE( 2, 2 ) NOT NULL

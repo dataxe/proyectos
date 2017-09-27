@@ -1,0 +1,2 @@
+Use motopartes
+UPDATE informacion_almacen SET version = 'V. 4.8' WHERE cod_informacion_almacen =1;

@@ -1,0 +1,1 @@
+UPDATE `pinsalud`.`egresos` SET `nombre_ccosto` = 'DROGUERIA';

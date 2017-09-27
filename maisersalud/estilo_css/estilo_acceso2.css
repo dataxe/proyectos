@@ -1,0 +1,68 @@
+body {
+	background-color: #333333;
+}
+#acceso {
+margin:auto; background: LightSlateGray; color: white; font-size: 12px; padding: 30px; width: 350px;
+border:solid 10px LightSlateGray; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+h2 {
+color: #FFFFFF;
+font-family: Georgia;
+font-size: 2.5em;
+font-weight:bold;
+text-shadow: 0 1px 0 #CCCCCC;
+text-align:center;
+}
+form#acceso fieldset {
+border: none;
+}
+form#acceso input{
+font-size:12px; background: white; border:solid 1px LightSteelBlue; border-radius: 1px;
+-webkit-border-radius: 3px; -moz-border-radius: 3px; float: right; margin-right: 15px; width: 200px;
+}
+form#acceso ol li {
+line-height: 25px; list-style: none;
+}
+form#acceso [required]{
+border:solid 5px white;
+}
+input:required {
+outline: 2px dotted thick;
+}
+form#acceso select{
+font-size:14px;
+background: white;
+border:solid 1px LightSteelBlue;
+border-radius: 2px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 210px;
+height: 28px;
+}
+#boton1{
+cursor: pointer;
+background:-moz-linear-gradient(#4f5058 0%,#669 100%);
+background:-ms-linear-gradient(#4f5058 0%,#669 100%);
+background:-o-linear-gradient(#4f5058 0%,#669 100%);
+background:-webkit-linear-gradient(#4f5058 0%,#669 100%);
+background:linear-gradient(#4f5058 0%,#669 100%);
+border:solid 1px #669;
+border-radius:5px;
+text-align:center;
+padding:5px;
+color:#000;
+width:7px;
+}
+#boton1:hover{
+background:-moz-linear-gradient(#4f5058 0%,#669 100%);
+color:#999;
+}
+@font-face {
+  font-family: 'ethnocen';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ethnocen.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

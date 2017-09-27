@@ -1,0 +1,1 @@
+ALTER TABLE `facturas_cargadas_inv` ADD `anyo` VARCHAR( 10 ) NOT NULL AFTER `fecha_anyo` 

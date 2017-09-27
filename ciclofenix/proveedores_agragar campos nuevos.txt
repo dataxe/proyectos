@@ -1,0 +1,9 @@
+ALTER TABLE `proveedores` ADD `direccion_proveedores2` VARCHAR( 30 ) NOT NULL AFTER `direccion_proveedores`;
+
+ALTER TABLE `proveedores` ADD `fax_proveedores` VARCHAR( 30 ) NOT NULL AFTER `telefono_proveedores`;
+
+ALTER TABLE `proveedores` ADD `pais_proveedores` VARCHAR( 30 ) NOT NULL AFTER `direccion_proveedores2`;
+
+ALTER TABLE `proveedores` ADD `ultima_compra` DOUBLE NOT NULL AFTER `pais_proveedores`;
+
+ALTER TABLE `proveedores` ADD `pagina_web_proveedores` VARCHAR( 60 ) NOT NULL AFTER `correo_proveedores`;

@@ -1,0 +1,2 @@
+ALTER TABLE `base_caja` ADD `total_venta_credito` INT( 10 ) NOT NULL AFTER `total_ventas`;
+ALTER TABLE `cajas_registros` ADD `total_venta_credito` INT( 10 ) NOT NULL AFTER `total_ventas`;

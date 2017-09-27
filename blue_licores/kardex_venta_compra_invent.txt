@@ -1,0 +1,16 @@
+﻿CREATE TABLE IF NOT EXISTS `kardex_venta_compra_invent` (
+  `cod_kardex_venta_compra_invent` int(10) NOT NULL AUTO_INCREMENT,
+  `cod_productos` varchar(20) COLLATE utf8_bin NOT NULL,
+  `nombre_productos` varchar(100) COLLATE utf8_bin NOT NULL,
+  `und_venta` double NOT NULL,
+  `und_compra` double NOT NULL,
+  `und_transf` double NOT NULL,
+  `und_transf_ent` double NOT NULL,
+  `und_invent` double NOT NULL,
+  `fecha_mes` varchar(8) COLLATE utf8_bin NOT NULL,
+  `fecha_dmy` varchar(12) COLLATE utf8_bin NOT NULL,
+  `anyo` int(4) NOT NULL,
+  `fecha_seg_ymd` int(20) NOT NULL,
+  `fecha_time` int(20) NOT NULL,
+  PRIMARY KEY (`cod_kardex_venta_compra_invent`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;

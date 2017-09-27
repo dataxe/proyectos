@@ -1,0 +1,30 @@
+ # asegurar htaccess
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+<files conexione.php>
+order allow,deny
+deny from all
+</files>
+
+<files funciones_admin.php>
+order allow,deny
+deny from all
+</files>
+
+Options All -Indexes
+
+# Make PHP code look like unknown types
+AddType application/x-httpd-php .cool
+
+#Evitar colocar permisos 777 a las carpetas
+php_flag engine off
+<Files ~ “\.(php*|s?p?html|cgi|pl)$”>
+deny from all
+</Files>
+
+# Evitar el uso de mysql_error()
+php_flag display_errors Off

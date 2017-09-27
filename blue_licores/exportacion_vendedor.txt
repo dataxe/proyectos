@@ -1,0 +1,70 @@
+﻿-- phpMyAdmin SQL Dump
+-- version 3.3.9
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 27-08-2016 a las 19:32:38
+-- Versión del servidor: 5.5.8
+-- Versión de PHP: 5.3.5
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `pinsalud`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `exportacion_vendedor`
+--
+
+CREATE TABLE IF NOT EXISTS `exportacion_vendedor` (
+  `cod_exportacion_vendedor` int(20) NOT NULL AUTO_INCREMENT,
+  `cod_productos` varchar(20) DEFAULT NULL,
+  `cod_factura` int(10) DEFAULT NULL,
+  `cod_original` varchar(20) DEFAULT NULL,
+  `codificacion` varchar(20) DEFAULT NULL,
+  `nombre_productos` varchar(100) NOT NULL,
+  `unidades` double DEFAULT NULL,
+  `cajas` double DEFAULT NULL,
+  `unidades_total` double DEFAULT NULL,
+  `unidades_vendidas` double NOT NULL,
+  `unidades_faltantes` double NOT NULL,
+  `precio_compra` double NOT NULL,
+  `precio_costo` double NOT NULL,
+  `precio_venta` double NOT NULL,
+  `vlr_total_venta` double DEFAULT NULL,
+  `vlr_total_compra` double NOT NULL,
+  `detalles` varchar(10) DEFAULT NULL,
+  `porcentaje_vendedor` varchar(10) DEFAULT NULL,
+  `descuento` int(8) NOT NULL,
+  `dto1` int(3) DEFAULT NULL,
+  `dto2` int(3) DEFAULT NULL,
+  `iva` int(5) DEFAULT NULL,
+  `iva_v` int(8) DEFAULT NULL,
+  `ptj_ganancia` double DEFAULT NULL,
+  `valor_iva` int(8) DEFAULT NULL,
+  `tope_min` int(5) DEFAULT NULL,
+  `precio_compra_con_descuento` double NOT NULL,
+  `vendedor` varchar(60) NOT NULL,
+  `ip` varchar(16) NOT NULL,
+  `fecha` int(20) NOT NULL,
+  `fecha_mes` varchar(7) DEFAULT NULL,
+  `fecha_anyo` varchar(12) DEFAULT NULL,
+  `fecha_hora` varchar(10) NOT NULL,
+  `fechas_vencimiento` varchar(12) DEFAULT NULL,
+  `fechas_vencimiento_seg` int(20) DEFAULT NULL,
+  PRIMARY KEY (`cod_exportacion_vendedor`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Volcar la base de datos para la tabla `exportacion_vendedor`
+--
+

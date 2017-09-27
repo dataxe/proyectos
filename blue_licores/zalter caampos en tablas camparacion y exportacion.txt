@@ -1,8 +1,0 @@
-ALTER TABLE `exportacion` ADD `fecha_time` INT( 20 ) NOT NULL AFTER `fechas_vencimiento_seg` ,
-ADD `cuenta` VARCHAR( 60 ) NOT NULL AFTER `fecha_time`;
-
-ALTER TABLE `camparacion_tablas` ADD `fecha_time` INT( 20 ) NOT NULL AFTER `fechas_vencimiento_seg` ,
-ADD `cuenta` VARCHAR( 60 ) NOT NULL AFTER `fecha_time;
-
-ALTER TABLE `info_camparacion_tablas` ADD `fecha_time` INT( 20 ) NOT NULL AFTER `hora` ,
-ADD `cuenta` VARCHAR( 60 ) NOT NULL AFTER `fecha_time`;

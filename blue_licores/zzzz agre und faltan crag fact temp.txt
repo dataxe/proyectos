@@ -1,1 +1,0 @@
-ALTER TABLE `cargar_factura_temporal` ADD `unidades_faltantes` DOUBLE NOT NULL AFTER `unidades_vendidas` 

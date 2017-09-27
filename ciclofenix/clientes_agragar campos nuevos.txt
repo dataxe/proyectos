@@ -1,7 +1,0 @@
-ALTER TABLE `clientes` ADD `fax` VARCHAR( 30 ) NOT NULL AFTER `correo`;
-
-ALTER TABLE `clientes` ADD `ciudad` VARCHAR( 30 ) NOT NULL AFTER `direccion`;
-
-ALTER TABLE `clientes` CHANGE `cedula` `cedula` VARCHAR( 20 ) NULL DEFAULT NULL;
-
-ALTER TABLE `clientes` ADD `contacto` VARCHAR( 30 ) NOT NULL AFTER `apellidos`;

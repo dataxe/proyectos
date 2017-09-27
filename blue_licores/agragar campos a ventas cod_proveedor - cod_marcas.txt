@@ -1,2 +1,0 @@
-ALTER TABLE `ventas` ADD `cod_proveedores` INT( 4 ) NOT NULL AFTER `cod_clientes` ,
-ADD `cod_marcas` INT( 4 ) NOT NULL AFTER `cod_proveedores` 

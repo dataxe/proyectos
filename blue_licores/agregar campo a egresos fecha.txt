@@ -1,1 +1,0 @@
-ALTER TABLE `egresos` ADD `fecha` INT( 20 ) NOT NULL AFTER `nombre_ccosto` 

@@ -1,2 +1,0 @@
-ALTER TABLE `sesiones` ADD `fecha_ini_time` INT( 20 ) NOT NULL AFTER `fecha_salida` ,
-ADD `fecha_fin_time` INT( 20 ) NOT NULL AFTER `fecha_ini_time` 

@@ -1,3 +1,0 @@
-ALTER TABLE `informacion_almacen` ADD `propietario_nombres_apellidos` VARCHAR( 50 ) NOT NULL AFTER `version` ,
-ADD `propietario_nit` VARCHAR( 10 ) NOT NULL AFTER `propietario_nombres_apellidos` ,
-ADD `propietario_url_firma` VARCHAR( 60 ) NOT NULL AFTER `propietario_nit` 

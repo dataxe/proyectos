@@ -1,1 +1,0 @@
-ALTER TABLE `descuento_ptj` CHANGE `nombre_descuento_ptj` `nombre_descuento_ptj` DOUBLE NOT NULL 

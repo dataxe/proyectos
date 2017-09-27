@@ -1,1 +1,0 @@
-ALTER TABLE `ventas` ADD `unidades_faltantes_inv` DOUBLE NOT NULL AFTER `cod_uniq_credito` 

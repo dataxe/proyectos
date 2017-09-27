@@ -1,1 +1,0 @@
-ALTER TABLE `temporal` ADD `comentario` VARCHAR( 40 ) NOT NULL AFTER `vlr_total_compra` 

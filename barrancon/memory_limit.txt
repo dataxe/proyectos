@@ -1,2 +1,0 @@
-C:\xampp\php
-memory_limit = 1024M

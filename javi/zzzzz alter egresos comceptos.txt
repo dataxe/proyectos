@@ -1,1 +1,0 @@
-ALTER TABLE `egresos` CHANGE `comentarios` `comentarios` VARCHAR( 200 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL 

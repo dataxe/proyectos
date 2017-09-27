@@ -1,1 +1,0 @@
-ALTER TABLE `informacion_almacen` ADD `img_cabecera` VARCHAR( 20 ) NOT NULL AFTER `cabecera` 

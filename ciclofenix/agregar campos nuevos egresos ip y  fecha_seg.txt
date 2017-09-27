@@ -1,2 +1,0 @@
-ALTER TABLE `egresos` CHANGE `fecha` `fecha_seg` INT( 20 ) NULL DEFAULT NULL;
-ALTER TABLE `egresos` ADD `ip` VARCHAR( 20 ) NOT NULL AFTER `hora`;
